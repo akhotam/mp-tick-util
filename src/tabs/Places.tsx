@@ -19,7 +19,7 @@ export function Places({ ticks, area, onArea }: Props) {
     <div className="grid">
       <Card
         title="Where you climb"
-        caption="Mountain Project's area hierarchy, one level at a time. Click a bar to go deeper."
+        caption="Mountain Project's area hierarchy, one level at a time — foreign crags start at their state or country rather than under 'International'. Click a bar to go deeper."
       >
         <div className="breadcrumb">
           <button onClick={() => onArea('')}>All areas</button>

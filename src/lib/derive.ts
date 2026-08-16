@@ -1,3 +1,4 @@
+import { normalizeAreaPath } from './areas.ts';
 import { routeId } from './parse.ts';
 import type { Logbook, TickRecord } from './types.ts';
 
@@ -53,9 +54,15 @@ export interface Tick {
   /** Route length in feet, where Mountain Project knows it. */
   length: number | null;
   avgStars: number;
+  /** `areaPath` rejoined — the normalized location, not the raw export string. */
   location: string;
-  /** `Location` split on ' > ', state first. */
+  /**
+   * `Location` split on ' > ', state first — with the `International >
+   * <Continent>` prefix flattened away so foreign crags start at their
+   * state/province, or their country. See `areas.ts`.
+   */
   areaPath: string[];
+  /** Top of `areaPath`: a US state, or a foreign province or country. */
   state: string;
   crag: string;
   /** `Route Type` split out — a route can be several at once. */
@@ -90,7 +97,9 @@ export function deriveTicks(logbook: Logbook): Tick[] {
 function deriveTick(record: TickRecord, id: string, ascentNumber: number): Tick {
   const raw = record.raw;
   const ratingCode = Number(raw['Rating Code']) || 0;
-  const areaPath = raw.Location.split(' > ').map((part) => part.trim()).filter(Boolean);
+  const areaPath = normalizeAreaPath(
+    raw.Location.split(' > ').map((part) => part.trim()).filter(Boolean),
+  );
   const sendStatus = deriveSendStatus(raw.Style, raw['Lead Style']);
 
   return {
@@ -108,7 +117,7 @@ function deriveTick(record: TickRecord, id: string, ascentNumber: number): Tick 
     pitches: Number(raw.Pitches) || 1,
     length: raw.Length.trim() === '' ? null : Number(raw.Length) || null,
     avgStars: Number(raw['Avg Stars']) || 0,
-    location: raw.Location,
+    location: areaPath.join(' > '),
     areaPath,
     state: areaPath[0] ?? 'Unknown',
     crag: areaPath.at(-1) ?? 'Unknown',
