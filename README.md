@@ -2,12 +2,12 @@
 
 Robust logbook utility and data visualizer for Mountain Project ticks
 
+Available at [akhotam.github.io/mp-tick-util/](https://akhotam.github.io/mp-tick-util/)
+
 ## Why
 
 - Mountain Project will delete ticks from your logbook when the route is deleted/lost/hidden
 - Current Mountain Project data analytics are pretty poor
-
-The site is static and runs entirely in the browser. No accounts, no backend, no upload.
 
 ## Using the Tick Utility
 
@@ -21,28 +21,25 @@ The site is static and runs entirely in the browser. No account creation and no 
    - Recommended: back this file up somewhere! Create a git repository for change tracking and server storage
 4. Explore the data visualizations and analytics
 
-## Existing Users
+### Existing Users
 
 1. Upload your existing `logbook.json` file to the tick utility webpage
 2. Download your newly updated ticks from Mountain Project
 3. Select `Add an Export` to import your new ticks
 4. Enjoy the data visualizations and analytics
 
-## Keeping your own backup in this repo
+### Formatting ticks on MP for best results
 
-`data/` holds the raw exports and `public/logbook.json` is the merged result. Both are committed,
-so git history is the backup — including anything Mountain Project has since deleted.
-
-```bash
-mv ~/Downloads/"ticks 7.csv" data/
-npm run ingest      # rebuilds public/logbook.json, prints what changed
-git add data public/logbook.json && git commit -m "Add ticks 7 export"
-```
-
-`npm run ingest` always rebuilds from every CSV in `data/`, so it's idempotent — running it twice
-produces a byte-identical file, and `git diff` shows only real changes.
+- **Partners:** use `w/` to denote who you climbed with
+   - Example: `Lead` > `Redpoint`: `w/ Charlie.`
+- **Rope/Free Solo:** tick rope solos as the rope style (`lead` or `TR`) and mention `solo` in the beginning of the tick. Free solos are ticked as `Solo` on MP
+   - Example: `Lead` > `Onsight`: `solo. Tested out the new Roc Solo while Bob watched...`
+- **Top Rope Styles:** the first word in the tick should be a standard style like `onsight` or `flash`
+   - Example: `TR`: `Flash w/ John. Fun route...`
 
 ## Development
+
+Clone the repo and run:
 
 ```bash
 npm install
