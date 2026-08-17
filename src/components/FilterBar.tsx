@@ -1,5 +1,5 @@
 import type { Tick } from '../lib/derive.ts';
-import { EMPTY_FILTERS, isFiltered, type Filters } from '../lib/filters.ts';
+import { EMPTY_FILTERS, isFiltered, SOLO, type Filters } from '../lib/filters.ts';
 
 interface Props {
   all: Tick[];
@@ -81,6 +81,7 @@ export function FilterBar({ all, filters, onChange, matched, deletedCount }: Pro
         With
         <select value={filters.partner} onChange={(e) => set({ partner: e.target.value })}>
           <option value="">anyone</option>
+          <option value={SOLO}>solo — nobody in the notes</option>
           {partners.map((partner) => (
             <option key={partner} value={partner}>
               {partner}

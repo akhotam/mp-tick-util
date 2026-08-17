@@ -10,11 +10,24 @@ export interface Filters {
   sendStatus: SendStatus[];
   /** ' > '-joined prefix of the location hierarchy. */
   area: string;
+  /** A partner's name, or `SOLO` for ticks with nobody named in the notes. */
   partner: string;
   q: string;
   /** Ticks Mountain Project has since dropped are hidden unless asked for. */
   includeDeleted: boolean;
 }
+
+/**
+ * Sentinel for the partner filter's "solo" option: ticks where `parsePartners`
+ * found nobody. The parens keep it out of reach of a real value — a parsed
+ * name always starts with a capital letter — so no partner can ever shadow it.
+ *
+ * Worth remembering when reading the number: this is "no partner written in
+ * the notes", which is not quite "climbed alone". Ticks where the notes simply
+ * didn't mention anyone land here too. Mountain Project's own `Solo` style is
+ * a separate thing, filtered through `sendStatus`.
+ */
+export const SOLO = '(solo)';
 
 export const EMPTY_FILTERS: Filters = {
   from: '',
@@ -42,7 +55,9 @@ export function applyFilters(ticks: Tick[], filters: Filters): Tick[] {
     }
     if (filters.sendStatus.length > 0 && !filters.sendStatus.includes(tick.sendStatus)) return false;
     if (filters.area && !tick.location.startsWith(filters.area)) return false;
-    if (filters.partner && !tick.partners.includes(filters.partner)) return false;
+    if (filters.partner === SOLO) {
+      if (tick.partners.length > 0) return false;
+    } else if (filters.partner && !tick.partners.includes(filters.partner)) return false;
     if (needle) {
       const haystack = `${tick.route} ${tick.notes} ${tick.location}`.toLowerCase();
       if (!haystack.includes(needle)) return false;
