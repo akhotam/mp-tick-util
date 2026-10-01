@@ -115,7 +115,7 @@ hr {
 }
 
 .site-header {
-  border-bottom: 1px solid var(--color-border);
+  background-color: #151515;
 }
 
 .site-header .container {
@@ -125,7 +125,7 @@ hr {
 }
 
 .wordmark {
-  color: var(--color-text);
+  color: #fff;
   font-family: var(--font-heading);
   font-size: 22px;
   font-weight: 900;

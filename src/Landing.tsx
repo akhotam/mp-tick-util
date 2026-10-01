@@ -2,8 +2,6 @@ function Landing() {
   return (
     <>
       <div className="page-title">
-        <h1>MP Tick Utility</h1>
-        <hr />
         <p className="lead">
           Merge your Mountain Project tick exports into one durable <code>logbook.json</code> and
           view your climbing analytics. Everything runs in your browser, with no accounts and no uploads.
