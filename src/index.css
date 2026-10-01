@@ -1,0 +1,147 @@
+:root {
+  --color-text: #151515;
+  --color-muted: #818a91;
+  --color-link: #039;
+  --color-brand: #336799;
+  --color-border: #d7d7d7;
+  --color-panel: #f2f2f2;
+  --font-body: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-heading: 'Roboto Condensed', 'Arial Narrow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6em;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4rem 1rem 0.45rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: var(--color-brand);
+  border-color: var(--color-brand);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #285178;
+  border-color: #285178;
+}
+
+.panel {
+  padding: 1rem;
+  background-color: var(--color-panel);
+}
+
+.top-nav {
+  height: 8px;
+  background-color: #000;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+.wordmark {
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.wordmark:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  min-height: 550px;
+  padding: 1.5rem 0;
+}
+
+.site-footer {
+  padding: 1rem 0;
+  border-top: 1px solid var(--color-border);
+  font-size: 14px;
+}
