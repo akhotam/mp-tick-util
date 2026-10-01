@@ -1,3 +1,5 @@
+import Landing from './Landing'
+
 function App() {
   return (
     <>
@@ -10,7 +12,9 @@ function App() {
         </div>
       </header>
       <main className="main-content">
-        <div className="container" />
+        <div className="container">
+          <Landing />
+        </div>
       </main>
       <footer className="site-footer">
         <div className="container text-muted">Not affiliated with Mountain Project.</div>
