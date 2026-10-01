@@ -1,0 +1,896 @@
+{
+  "version": 1,
+  "snapshots": [
+    "ticks.csv",
+    "ticks 2.csv"
+  ],
+  "ticks": [
+    {
+      "id": "2026-06-07|114814486|Lead|Onsight|1|0",
+      "raw": {
+        "Date": "2026-06-07",
+        "Route": "Lil’ Jim Corner",
+        "Rating": "5.6",
+        "Notes": "Climbed with Priya. Two #4s would’ve been nice, bumped one most of the way",
+        "URL": "https://www.mountainproject.com/route/114814486/lil-jim-corner",
+        "Pitches": "1",
+        "Location": "California > High Desert > Barstow Area > New Jack City > Box Canyon East > Parking Lot Crag",
+        "Avg Stars": "2.2",
+        "Your Stars": "3",
+        "Style": "Lead",
+        "Lead Style": "Onsight",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "50",
+        "Rating Code": "1600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-06-14|112232351|Flash||1|0",
+      "raw": {
+        "Date": "2026-06-14",
+        "Route": "V3 boulder",
+        "Rating": "V3",
+        "Notes": "onsight w/ climbing class: Alex, Tommy-Lee, Chris",
+        "URL": "https://www.mountainproject.com/route/112232351/v3-boulder",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.2",
+        "Your Stars": "-1",
+        "Style": "Flash",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "20300"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-06-21|112166261|Lead|Redpoint|1|0",
+      "raw": {
+        "Date": "2026-06-21",
+        "Route": "5.6 sport",
+        "Rating": "5.6",
+        "Notes": "Solo w/ Bill. First proper lead rope solo",
+        "URL": "https://www.mountainproject.com/route/112166261/56-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.3",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Redpoint",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "1600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-06-27|127378380|Lead||1|0",
+      "raw": {
+        "Date": "2026-06-27",
+        "Route": "C1+ Aid",
+        "Rating": "C1+",
+        "Notes": "Aid w/ Bill. First attempt at clean aid",
+        "URL": "https://www.mountainproject.com/route/127378380/c1-aid",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.0",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "",
+        "Route Type": "Trad, Aid",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "0"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-06-28|127378380|Lead||1|0",
+      "raw": {
+        "Date": "2026-06-28",
+        "Route": "C1+ Aid",
+        "Rating": "C1+",
+        "Notes": "Aid w/ Bill. First attempt at clean aid",
+        "URL": "https://www.mountainproject.com/route/127378380/c1-aid",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.0",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "",
+        "Route Type": "Trad, Aid",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "0"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks.csv",
+      "deleted": true,
+      "deleted_at": "ticks 2.csv",
+      "edits": [
+        {
+          "field": "deleted",
+          "from": false,
+          "to": true,
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-05|121453674|Lead|Onsight|1|0",
+      "raw": {
+        "Date": "2026-07-05",
+        "Route": "The Knights Who Say \"Ni\"",
+        "Rating": "5.5",
+        "Notes": " w/ Joe. Took the &#34;scenic&#34; descent",
+        "URL": "https://www.mountainproject.com/route/121453674/the-knights-who-say-ni",
+        "Pitches": "1",
+        "Location": "California > Lake Tahoe > South Shore > The Pie Shop > 3. Monty Python Castles > Castle Arrruuuuuuuugggh",
+        "Avg Stars": "2.3",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Onsight",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "120",
+        "Rating Code": "1500"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-07-12|121453674|Lead||1|0",
+      "raw": {
+        "Date": "2026-07-12",
+        "Route": "The Knights Who Say \"Ni\"",
+        "Rating": "5.5",
+        "Notes": "Redpoint with Joe and Bob",
+        "URL": "https://www.mountainproject.com/route/121453674/the-knights-who-say-ni",
+        "Pitches": "1",
+        "Location": "California > Lake Tahoe > South Shore > The Pie Shop > 3. Monty Python Castles > Castle Arrruuuuuuuugggh",
+        "Avg Stars": "2.3",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "120",
+        "Rating Code": "1500"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Notes",
+          "from": "Repeat with Joe and Bob",
+          "to": "Redpoint with Joe and Bob",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19|116604247|||1|0",
+      "raw": {
+        "Date": "2026-07-19",
+        "Route": "Right Crack",
+        "Rating": "5.10a V1- R",
+        "Notes": "TR. redpoint with Dana",
+        "URL": "https://www.mountainproject.com/route/116604247/right-crack",
+        "Pitches": "1",
+        "Location": "California > San Francisco Bay Area > South Bay Area > Lexington Rock",
+        "Avg Stars": "2.8",
+        "Your Stars": "-1",
+        "Style": "",
+        "Lead Style": "",
+        "Route Type": "Trad, TR, Boulder",
+        "Your Rating": "",
+        "Length": "50",
+        "Rating Code": "2600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-07-26|109909536|Solo||1|0",
+      "raw": {
+        "Date": "2026-07-26",
+        "Route": "When in Doubt, Run it Out",
+        "Rating": "5.5 X",
+        "Notes": "Free solo. Crux was getting off the ground",
+        "URL": "https://www.mountainproject.com/route/109909536/when-in-doubt-run-it-out",
+        "Pitches": "1",
+        "Location": "California > Central Coast > Pinnacles National Park > East Side > Upper Crust",
+        "Avg Stars": "1.0",
+        "Your Stars": "-1",
+        "Style": "Solo",
+        "Lead Style": "",
+        "Route Type": "Trad",
+        "Your Rating": "",
+        "Length": "65",
+        "Rating Code": "1500"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks.csv",
+      "deleted": true,
+      "deleted_at": "ticks 2.csv",
+      "edits": [
+        {
+          "field": "deleted",
+          "from": false,
+          "to": true,
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02|112833955|Solo||1|0",
+      "raw": {
+        "Date": "2026-08-02",
+        "Route": "Patio Cracks - Left",
+        "Rating": "5.8+",
+        "Notes": "to set up TR anchors. Soloed w/o a rope",
+        "URL": "https://www.mountainproject.com/route/112833955/patio-cracks-left",
+        "Pitches": "1",
+        "Location": "California > Yosemite National Park > Yosemite Valley > Valley North Side > E. Yosemite Falls Area > A. Swan Slab",
+        "Avg Stars": "1.9",
+        "Your Stars": "-1",
+        "Style": "Solo",
+        "Lead Style": "",
+        "Route Type": "",
+        "Your Rating": "",
+        "Length": "12",
+        "Rating Code": "2200"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Route",
+          "from": "Patio Cracks Left",
+          "to": "Patio Cracks - Left",
+          "at": "ticks 2.csv"
+        },
+        {
+          "field": "URL",
+          "from": "https://www.mountainproject.com/route/112833955/patio-cracks",
+          "to": "https://www.mountainproject.com/route/112833955/patio-cracks-left",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-09|121964621|TR||1|0",
+      "raw": {
+        "Date": "2026-08-09",
+        "Route": "Señor Slabby",
+        "Rating": "5.9 PG13",
+        "Notes": "Flash. w/ Dana from climbing meetup group. Thin crack that you can&#39;t jam",
+        "URL": "https://www.mountainproject.com/route/121964621/senor-slabby",
+        "Pitches": "1",
+        "Location": "Nevada > Western Nevada > Lake Tahoe Area > Lakeside",
+        "Avg Stars": "2.4",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Trad, TR",
+        "Your Rating": "",
+        "Length": "40",
+        "Rating Code": "2400"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Location",
+          "from": "Nevada > Lake Tahoe Area > Lakeside",
+          "to": "Nevada > Western Nevada > Lake Tahoe Area > Lakeside",
+          "at": "ticks 2.csv"
+        },
+        {
+          "field": "Route Type",
+          "from": "TR",
+          "to": "Trad, TR",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16|117376550|Lead|Onsight|4|0",
+      "raw": {
+        "Date": "2026-08-16",
+        "Route": "Keeping it Riel (Since 1885)",
+        "Rating": "5.6",
+        "Notes": "w/ Ana, Bill, & Tom. Linked 1+2, 3+4 with a bit of simuling",
+        "URL": "https://www.mountainproject.com/route/117376550/keeping-it-riel-since-1885",
+        "Pitches": "4",
+        "Location": "International > North America > Canada > Alberta > Banff National Park > Cascade Mountain > Falls Area Rock",
+        "Avg Stars": "2.1",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Onsight",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "500",
+        "Rating Code": "1600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-08-23|112232357|Attempt||1|0",
+      "raw": {
+        "Date": "2026-08-23",
+        "Route": "V5 boulder",
+        "Rating": "V5",
+        "Notes": "attempt w/ REI",
+        "URL": "https://www.mountainproject.com/route/112232357/v5-boulder",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.1",
+        "Your Stars": "-1",
+        "Style": "Attempt",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "20500"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-08-30|200953736|Send||1|0",
+      "raw": {
+        "Date": "2026-08-30",
+        "Route": "Malibu Creek Traverse",
+        "Rating": "3rd V0 PG13",
+        "Notes": "with Ana",
+        "URL": "https://www.mountainproject.com/route/200953736/malibu-creek-traverse",
+        "Pitches": "1",
+        "Location": "California > Los Angeles Basin > Santa Monica Mountains > Malibu Creek State Park > Rock Pool",
+        "Avg Stars": "2.4",
+        "Your Stars": "-1",
+        "Style": "Send",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "800"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-08-30|200953736|Send||1|1",
+      "raw": {
+        "Date": "2026-08-30",
+        "Route": "Malibu Creek Traverse",
+        "Rating": "3rd V0 PG13",
+        "Notes": "with Ana",
+        "URL": "https://www.mountainproject.com/route/200953736/malibu-creek-traverse",
+        "Pitches": "1",
+        "Location": "California > Los Angeles Basin > Santa Monica Mountains > Malibu Creek State Park > Rock Pool",
+        "Avg Stars": "2.4",
+        "Your Stars": "-1",
+        "Style": "Send",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "800"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-06|119494393|TR||1|0",
+      "raw": {
+        "Date": "2026-09-06",
+        "Route": "5.10 a/b sport",
+        "Rating": "5.10a/b",
+        "Notes": "solo flash w/ John. Pumped at the top",
+        "URL": "https://www.mountainproject.com/route/119494393/510-ab-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.0",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "1",
+        "Rating Code": "2800"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-14|112166313|Lead|Fell/Hung|1|0",
+      "raw": {
+        "Date": "2026-09-14",
+        "Route": "5.10a sport",
+        "Rating": "5.10a",
+        "Notes": "Fell / Hung. w/ Joe & Tom. Figured out the beta, clipping\r\nfrom the jug",
+        "URL": "https://www.mountainproject.com/route/112166313/510a-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.6",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Fell/Hung",
+        "Route Type": "Sport",
+        "Your Rating": "5.10b",
+        "Length": "",
+        "Rating Code": "2600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Your Rating",
+          "from": "",
+          "to": "5.10b",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14|112166317|TR|Fell/Hung|1|0",
+      "raw": {
+        "Date": "2026-09-14",
+        "Route": "5.10c sport",
+        "Rating": "5.10c",
+        "Notes": "Fell/Hung. w/ Tom's rope. Forgot to use the undercling",
+        "URL": "https://www.mountainproject.com/route/112166317/510c-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.6",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "Fell/Hung",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "3200"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-20|122207267|Lead|Onsight|1|0",
+      "raw": {
+        "Date": "2026-09-20",
+        "Route": "5.8+ sport",
+        "Rating": "5.8+",
+        "Notes": "w/ Bob. Fun route, felt good",
+        "URL": "https://www.mountainproject.com/route/122207267/58-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.2",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Onsight",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "2200"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Rating",
+          "from": "5.9-",
+          "to": "5.8+",
+          "at": "ticks 2.csv"
+        },
+        {
+          "field": "Rating Code",
+          "from": "2300",
+          "to": "2200",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-20|122207267|Lead|Redpoint|1|0",
+      "raw": {
+        "Date": "2026-09-20",
+        "Route": "5.8+ sport",
+        "Rating": "5.8+",
+        "Notes": "with Bob. Second lap",
+        "URL": "https://www.mountainproject.com/route/122207267/58-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.2",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Redpoint",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "2200"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Rating",
+          "from": "5.9-",
+          "to": "5.8+",
+          "at": "ticks 2.csv"
+        },
+        {
+          "field": "Rating Code",
+          "from": "2300",
+          "to": "2200",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21|112166261|Lead|Flash|3|0",
+      "raw": {
+        "Date": "2026-09-21",
+        "Route": "5.6 sport",
+        "Rating": "5.6",
+        "Notes": "w/ Bill. Multi-pitch practice",
+        "URL": "https://www.mountainproject.com/route/112166261/56-sport",
+        "Pitches": "3",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.3",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Flash",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "1600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-27|112166313|Lead|Pinkpoint|1|0",
+      "raw": {
+        "Date": "2026-09-27",
+        "Route": "5.10a sport",
+        "Rating": "5.10a",
+        "Notes": "w/ Joe. Finally sent",
+        "URL": "https://www.mountainproject.com/route/112166313/510a-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.6",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Pinkpoint",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "2600"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-27|121671102|Solo||1|0",
+      "raw": {
+        "Date": "2026-09-27",
+        "Route": "5.7+ sport",
+        "Rating": "5.7+",
+        "Notes": "w/ Tom. Scary",
+        "URL": "https://www.mountainproject.com/route/121671102/57-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.8",
+        "Your Stars": "-1",
+        "Style": "Solo",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "1900"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-09-27|201168358|Follow||5|0",
+      "raw": {
+        "Date": "2026-09-27",
+        "Route": "5.12- C1",
+        "Rating": "5.12-",
+        "Notes": "w/ Joe. Committing crux",
+        "URL": "https://www.mountainproject.com/route/201168358/512-c1",
+        "Pitches": "5",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "-1.0",
+        "Your Stars": "-1",
+        "Style": "Follow",
+        "Lead Style": "",
+        "Route Type": "Trad",
+        "Your Rating": "",
+        "Length": "500",
+        "Rating Code": "6700"
+      },
+      "first_seen": "ticks.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": [
+        {
+          "field": "Length",
+          "from": "450",
+          "to": "500",
+          "at": "ticks 2.csv"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01|112166317|TR||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "5.10c sport",
+        "Rating": "5.10c",
+        "Notes": "Solo Onsight. Second top rope solo",
+        "URL": "https://www.mountainproject.com/route/112166317/510c-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.6",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "3200"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|112166322|TR||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "5.10d sport",
+        "Rating": "5.10d",
+        "Notes": "Redpoint. w/ Bill",
+        "URL": "https://www.mountainproject.com/route/112166322/510d-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "2.9",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "3500"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|112232351|Send||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "V3 boulder",
+        "Rating": "V3",
+        "Notes": "",
+        "URL": "https://www.mountainproject.com/route/112232351/v3-boulder",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.2",
+        "Your Stars": "-1",
+        "Style": "Send",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "20300"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|112232357|Attempt||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "V5 boulder",
+        "Rating": "V5",
+        "Notes": "",
+        "URL": "https://www.mountainproject.com/route/112232357/v5-boulder",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.1",
+        "Your Stars": "-1",
+        "Style": "Attempt",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "20500"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|118097450|Flash||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "V-easy boulder",
+        "Rating": "V-easy",
+        "Notes": "",
+        "URL": "https://www.mountainproject.com/route/118097450/v-easy-boulder",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "4.0",
+        "Your Stars": "-1",
+        "Style": "Flash",
+        "Lead Style": "",
+        "Route Type": "Boulder",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "20000"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|119494393|TR||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "5.10 a/b sport",
+        "Rating": "5.10a/b",
+        "Notes": "Flash. w/ John",
+        "URL": "https://www.mountainproject.com/route/119494393/510-ab-sport",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.1",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Sport",
+        "Your Rating": "",
+        "Length": "1",
+        "Rating Code": "2800"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|119745807|Lead|Flash|1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "5.3 Trad",
+        "Rating": "5.3",
+        "Notes": "Solo. First lead rope solo",
+        "URL": "https://www.mountainproject.com/route/119745807/53-trad",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "1.0",
+        "Your Stars": "-1",
+        "Style": "Lead",
+        "Lead Style": "Flash",
+        "Route Type": "Trad",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "1300"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    },
+    {
+      "id": "2026-10-01|127378380|TR||1|0",
+      "raw": {
+        "Date": "2026-10-01",
+        "Route": "C1+ Aid",
+        "Rating": "C1+",
+        "Notes": "Solo Flash. First top rope solo",
+        "URL": "https://www.mountainproject.com/route/127378380/c1-aid",
+        "Pitches": "1",
+        "Location": "* In Progress > Generic Area",
+        "Avg Stars": "3.0",
+        "Your Stars": "-1",
+        "Style": "TR",
+        "Lead Style": "",
+        "Route Type": "Trad, Aid",
+        "Your Rating": "",
+        "Length": "",
+        "Rating Code": "0"
+      },
+      "first_seen": "ticks 2.csv",
+      "last_seen": "ticks 2.csv",
+      "deleted": false,
+      "deleted_at": null,
+      "edits": []
+    }
+  ]
+}
