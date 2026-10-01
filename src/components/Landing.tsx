@@ -1,4 +1,4 @@
-function Landing() {
+function Landing({ onFiles, onDemo }: { onFiles: (files: File[]) => void; onDemo: () => void }) {
   return (
     <>
       <div className="page-title">
@@ -13,16 +13,22 @@ function Landing() {
           <div className="choices">
             <div className="panel choice">
               <h3>Upload files</h3>
-              <p>Select one or more tick CSV exports, plus your existing logbook.json if you have one.</p>
+              <p>
+                Select one or more tick CSV exports, plus your existing logbook.json if you have one. You can
+                also drop files anywhere on this page.
+              </p>
               <label className="btn btn-primary">
                 Choose files
-                <input className="visually-hidden" type="file" multiple accept=".csv,.json" onChange={() => { }} />
+                <input className="visually-hidden" type="file" multiple accept=".csv,.json" onChange={(e) => {
+                  onFiles([...(e.target.files ?? [])])
+                  e.target.value = ''
+                }} />
               </label>
             </div>
             <div className="panel choice">
               <h3>View demo logbook</h3>
               <p>Explore the charts with a sample logbook before using your own ticks.</p>
-              <button className="btn btn-primary" type="button" onClick={() => { }}>
+              <button className="btn btn-primary" type="button" onClick={onDemo}>
                 View demo
               </button>
             </div>

@@ -17,5 +17,15 @@
   "ignorePatterns": [
     "reference/**",
     "dist/**"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "src/components/charts.tsx"
+      ],
+      "rules": {
+        "react/only-export-components": "off"
+      }
+    }
   ]
 }
